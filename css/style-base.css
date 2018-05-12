@@ -1,0 +1,39 @@
+::before,::after{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 14px;
+}
+html,body{width: 100%;height: 100%;}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #2196cf;
+}
+ul,ol{
+    list-style: none;
+}
+img{display: block;}
+input,textarea{
+    text-decoration: none;
+    outline: none;
+    /*-webkit-appearance: none;*/
+}
+
+.fleft{float: left;}
+.fright{float: right;}
+
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
